@@ -19,7 +19,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CadastroUsuario"></activity>
+        <activity android:name=".ThreadActivity" />
+        <activity
+            android:name=".LocalidadeActivity"
+            android:label="Localidades"
+            />
+        <activity
+            android:name=".BemActivity"
+            android:label="Patrimônio" />
+        <activity
+            android:name=".CadastrarLocalidadeActivity"
+            android:label="@string/title_activity_cadastrar_localidade"></activity>
+        <activity
+            android:name=".CadastrarBemActivity"
+            android:label="Cadastrar Bens" />
     </application>
 
 </manifest>
