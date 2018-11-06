@@ -12,7 +12,8 @@
         <activity
             android:name=".CadastroUsuarioActivity"
             android:label="Cadastrar Usuário" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:label="Controle de Bens">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,6 +34,21 @@
         <activity
             android:name=".CadastrarBemActivity"
             android:label="Cadastrar Bens" />
+
+        <service
+            android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".MyMessageService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
     </application>
 
 </manifest>

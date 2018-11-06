@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Theads</string>
+    <string name="app_name">Ocorrências</string>
     <string name="title_activity_localidade">LocalidadeActivity</string>
     <string name="title_activity_bem">BemActivity</string>
     <string name="title_activity_cadastrar_localidade">CadastrarLocalidadeActivity</string>
